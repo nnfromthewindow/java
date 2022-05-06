@@ -1,0 +1,18 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.ECLIPSE_HOME=C\:/Program Files (x86)/eclipse/
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=C\:/Program Files (x86)/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/lib/jrt-fs.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=C\:/Program Files (x86)/eclipse/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/lib/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=
+org.eclipse.jdt.core.classpathVariable.JUNIT_HOME=C\:/Program Files (x86)/eclipse/plugins/org.junit_4.13.0.v20200204-1500.jar
+org.eclipse.jdt.core.classpathVariable.M2_REPO=C\:/Users/Usuario/.m2/repository
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=17
+org.eclipse.jdt.core.compiler.compliance=17
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enablePreviewFeatures=disabled
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.problem.reportPreviewFeatures=warning
+org.eclipse.jdt.core.compiler.release=disabled
+org.eclipse.jdt.core.compiler.source=17
+org.eclipse.jdt.core.userLibrary.JavaFX17=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<userlibrary systemlibrary\="false" version\="2">\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.base.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.controls.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.fxml.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.graphics.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.media.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.swing.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx.web.jar"/>\r\n\t<archive path\="C\:/Users/Usuario/Downloads/javafx-sdk-17.0.0.1/lib/javafx-swt.jar"/>\r\n</userlibrary>\r\n

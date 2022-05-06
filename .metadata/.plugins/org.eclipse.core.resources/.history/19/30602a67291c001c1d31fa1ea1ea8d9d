@@ -1,0 +1,27 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		int below=10;
+		int factor = 0;
+		int a = factor*3;
+		int b = factor*5;
+		
+		
+		
+		do {factor=+1;}
+			while(a<=below);
+		do {factor=+1;}
+			while(b<=below);
+		if(a == b) {
+			b=0;
+		}
+		int suma = a+b;
+		
+		System.out.println(suma);
+		
+
+	}
+
+}

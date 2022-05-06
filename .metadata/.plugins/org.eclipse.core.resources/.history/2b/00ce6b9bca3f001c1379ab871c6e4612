@@ -1,0 +1,31 @@
+import java.util.Map;
+import java.util.stream.Stream;
+
+public class Main2 {
+
+	public static void main(String[] args) {
+
+		String camel = "camelCasing";
+			Solution.camelCase(camel);		
+	}
+
+}
+class Solution {
+	  public static String camelCase(String input) {
+	
+		  String out = "";
+		 //Stream<String> in =
+	
+		 for(int i = 0 ; i< input.length(); i ++) {
+			 char ch = input.charAt(i);
+				if(ch>='a' && ch<='z') {
+					System.out.println(ch);
+				}
+		
+			 System.out.print(out); 
+		 }
+		  
+		  			   
+		  return null;
+	  }
+	}

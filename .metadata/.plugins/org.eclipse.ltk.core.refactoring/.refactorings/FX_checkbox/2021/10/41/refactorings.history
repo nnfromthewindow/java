@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 2 elements from project &apos;FX_checkbox&apos;&#x0D;&#x0A;- Original project: &apos;FX_checkbox&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     lightbulb1.png&#x0D;&#x0A;     lightbulb2.png" description="Delete elements" element1="src/application/lightbulb2.png" element2="src/application/lightbulb1.png" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="2" stamp="1633835625491" subPackages="false" version="1.0"/>
+</session>

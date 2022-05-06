@@ -1,0 +1,5 @@
+package streamsExample;
+
+public enum Gender {
+
+}

@@ -1,0 +1,41 @@
+
+public class Main2 {
+
+	public static void main(String[] args) {
+
+//----------------------------------------------------------
+//BREAK CAMEL CASE		
+/*		
+		String camel = "camelCasing";
+		System.out.println(Solution.camelCase(camel));			
+	}
+
+}
+class Solution {
+	  public static String camelCase(String input) {
+	
+		  String out = "";
+	
+		 for(int i = 0 ; i< input.length(); i ++) {
+			 char ch = input.charAt(i);
+				if(ch>='a' && ch<='z') out+= ch;
+				if(ch>='A' && ch<='Z') out+= " "+ch;	
+		 }
+		  			   
+		  return out;
+		  //  return input.replaceAll("([A-Z])", " $1");  //Esto solo  
+	  }
+	}
+//-----------------------------------------
+*/
+
+		String reg = "esto abab esabregexab ab ab abyeaes";
+		System.out.println(reg.replaceAll("e^regex", "X"));
+		
+				
+		
+
+	}	
+}		
+ 
+ 

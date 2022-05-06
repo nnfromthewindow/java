@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;Scene.fxml&apos; to &apos;FX_animations/src/application&apos;&#x0D;&#x0A;- Original project: &apos;FX_animations&apos;&#x0D;&#x0A;- Destination element: &apos;FX_animations/src/application&apos;&#x0D;&#x0A;- Original element: &apos;Scene.fxml&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/src&lt;application" element1="src/Scene.fxml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1634647102325" units="0" version="1.0"/>
+</session>

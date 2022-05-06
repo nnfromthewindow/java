@@ -1,0 +1,41 @@
+import java.util.HashMap;
+
+public class TestBlank {
+
+	public static void main(String[] args) {
+		
+		
+		String[] ex1 = {"a b", " ba"};
+		String[] ex2 = {"ab kl", "ba kl", "a blk"};
+		String[] ex3 ={"hop", "hpo", "pho"};	
+		String[] ex4 = {"abdgefc", "adbegcf", "daebgfc", "adegfcb", "aedfgbc", "adegfcb", "dagecfb", "adegfcb", "adgefbc"};
+		
+//		Kata.figureOut(ex2);
+		//System.out.println(Kata.figureOut(ex1));
+		System.out.println(Kata.figureOut(ex2));
+		//System.out.println(Kata.figureOut(ex3));
+		//System.out.println(Kata.figureOut(ex4));
+	}	
+}
+
+
+ class Kata {
+  public static String figureOut(String[] arr) {
+    HashMap<Character, Integer> h = new HashMap<>();
+    
+    for(String s : arr) {
+      for(int i = 0, l = s.length(), j; i < l; i++) {
+           if(s.charAt(i) == ' ') { continue; }
+        j = h.getOrDefault(s.charAt(i), -1);
+        System.out.println(j);
+        if(j >= 0 && Math.abs(i - j) > 1) {
+          return s.substring(i, i + 1);
+        }
+        h.put(s.charAt(i), i);
+       System.out.println(h); 
+      }
+    }
+    
+    return null;
+  }
+}

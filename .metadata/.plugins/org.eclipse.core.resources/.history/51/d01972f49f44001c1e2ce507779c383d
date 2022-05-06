@@ -1,0 +1,77 @@
+import java.math.BigInteger;
+		
+public class Main2 {
+
+	public static void main(String[] args) {
+
+//----------------------------------------------------------
+//BREAK CAMEL CASE		
+/*		
+		String camel = "camelCasing";
+		System.out.println(Solution.camelCase(camel));			
+	}
+
+}
+class Solution {
+	  public static String camelCase(String input) {
+	
+		  String out = "";
+	
+		 for(int i = 0 ; i< input.length(); i ++) {
+			 char ch = input.charAt(i);
+				if(ch>='a' && ch<='z') out+= ch;
+				if(ch>='A' && ch<='Z') out+= " "+ch;	
+		 }
+		  			   
+		  return out;
+		  //  return input.replaceAll("([A-Z])", " $1");  //Esto solo  
+	  }
+	}
+//-----------------------------------------
+*/
+//REGEX (REGULAR EXPRESSIONS) EXAMPLES
+//		
+//		String reg = "A bAA  cAAA,dAAAA.eAAAA32";
+//		// Removes whitespace between a word character and . or ,
+//		String pattern = "(\\w)(\\s+)([\\.,])";
+//		System.out.println(reg.replaceAll(pattern, "$1$3"));
+//------------------------------------------------------
+//COUNT A SPIRAL
+		
+		BigInteger sp = new BigInteger("7");	
+	System.out.println(Spiral.sum(sp))	;
+		
+		}	
+	}
+	//5,4,4,2,2
+	//7,6,6,4,4,2,2
+	//8,7,7,5,5,3,3,1
+//Tengo que hacer que a mi numero se le sume el anterior dos veces y que se le sume a los dos anteriores dos veces del anterior a mi numero de manera 
+//repetida hasta que el resultado sea mayor que cero
+
+
+class Spiral {
+		    public static BigInteger sum(BigInteger size) {
+		    	
+		    	BigInteger bound = new BigInteger("5");
+		    	BigInteger value = new BigInteger("0");
+		    	BigInteger value4 = new BigInteger("0");
+		    	BigInteger value2 = new BigInteger("-1");
+		    	BigInteger value3 = new BigInteger("-2");
+		    	BigInteger value1= new BigInteger("1");
+		    	BigInteger mult = new BigInteger("2");
+		 
+		    //	if (size.compareTo(bound)<0) 	return null;
+		  
+		    	if(size.compareTo(value4)>0 )value = size.add(size.add((value2)).multiply(mult)).add(sum(size.add(value2).add(value3)));
+		    	if((size.mod(mult)).compareTo(value1)!=0) System.out.println("size es impar");
+//		    	System.out.println("what");
+		    	return value;
+		 
+		    }
+		}
+		
+	
+		
+ 
+ 
